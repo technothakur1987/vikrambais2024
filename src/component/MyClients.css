@@ -1,0 +1,20 @@
+.swiper-button-prev, .swiper-button-next {
+   
+    color: #1788ae;
+}
+
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+    bottom: 0;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #1788ae;
+}
+
+@media (max-width: 768px) {
+    .swiper-button-prev, .swiper-button-next {
+   
+       display: none;
+    }
+}

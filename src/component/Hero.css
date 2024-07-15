@@ -1,0 +1,34 @@
+.arrowafter, .arrowdown {
+    position: relative;
+}
+
+.arrowafter span::after {
+    content: url('../assets/rightarrow.svg'); /* Replace with the path to your image */
+    position: absolute;
+    top: 50%;
+    left: 80%; /* Adjust this value to position the image horizontally */
+    transform: translateY(-100%); /* Center the image vertically */
+    width: 16px; /* Adjust this value to change the width of the image */
+    height: 16px; /* Adjust this value to change the height of the image */
+    transition: left 0.3s ease; /* Smooth transition for the left property */
+}
+
+.arrowafter:hover span::after {
+    left: 100%; /* Adjust this value to increase the left position on hover */
+}
+
+.arrowdown span::after {
+    content: url('../assets/rightarrow.svg'); /* Replace with the path to your image */
+    position: absolute;
+    bottom: -25%;
+    left:51%; /* Adjust this value to position the image horizontally */
+    transform: rotate(90deg);
+    width: 16px; /* Adjust this value to change the width of the image */
+    height: 16px; /* Adjust this value to change the height of the image */
+    transition: left 0.3s ease; /* Smooth transition for the left property */
+}
+
+.arrowdown:hover span::after {
+    bottom: -40%;
+   
+}

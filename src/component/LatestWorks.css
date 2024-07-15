@@ -1,0 +1,32 @@
+
+@media (min-width: 768px) {
+
+    .showLink:hover .name{
+        cursor: pointer!important;
+        top: 0.0%!important;
+        transition: 0.5s!important;
+        transform: scale(0.8)!important;
+        transition-timing-function: ease-in-out!important;
+        opacity: 1!important;
+     }
+     .showLink:hover .nameapp{
+        cursor: pointer;
+        top: -13%;
+        transition: 0.5s!important;
+        transform: scale(0.8)!important;
+        transition-timing-function: ease-in-out!important;
+        opacity: 1!important;
+     }
+
+}
+
+/* .showLink:hover .frame{
+    transform: scale(1.10);
+    transition: 0.2s;
+ } */
+/* .nolinehover:hover .line{
+    scale:1!important;
+}
+.line:hover{
+    scale: 1!important;
+} */

@@ -1,0 +1,25 @@
+/* #name:active{
+    border: none!important;
+    outline: none!important ;
+
+}
+#name:hover{
+    border: none!important;
+    outline: none!important ;
+
+}
+#name:visited{
+    border: none!important;
+    outline: none!important ;
+
+} */
+/* #name:focus-visible{
+   border: 2px solid #1788ae;
+   box-shadow: none;
+   outline: none;
+  
+} */
+
+.fa-message{
+    transform: rotateY(180deg);
+}

@@ -1,0 +1,40 @@
+#root{
+    position: relative;
+    
+   
+   
+
+}
+body{
+    scroll-behavior: smooth;
+   
+    width: 100%;
+}
+
+
+/*scrollbar*/
+/* For Chrome, Safari, and Edge */
+::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1595b6; /* color of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #111; /* color of the scroll thumb */
+    border-radius: 6px; /* roundness of the scroll thumb */
+    border: 3px solid #111; /* creates padding around scroll thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #111; /* color of the scroll thumb when hovered */
+  }
+  
+  /* For Firefox */
+  * {
+    scrollbar-width: thin; /* thin scrollbar */
+    scrollbar-color: #111 #1595b6; /* color of the scroll thumb and track */
+  }
+  
